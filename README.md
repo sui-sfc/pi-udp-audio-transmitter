@@ -10,3 +10,7 @@ edit /etc/modules:
 dwc2
 libcomposite
 ```
+コンパイル設定
+```
+gcc sender.c -lpulse -lpulse-simple
+```
