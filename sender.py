@@ -3,7 +3,7 @@ import wave
 import time
 from socket import socket, AF_INET, SOCK_DGRAM
 
-CHUNK = 1024
+CHUNK = 256
 HOST = ''
 PORT = 60000
 ADDRESS = '192.168.0.29'
