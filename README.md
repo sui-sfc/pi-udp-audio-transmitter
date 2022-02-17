@@ -14,3 +14,8 @@ libcomposite
 ```
 gcc sender.c -lpulse -lpulse-simple
 ```
+起動方法
+```
+sudo ./uac1_gadget.sh
+python3 sender.py
+```
