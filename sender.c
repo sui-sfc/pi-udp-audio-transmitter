@@ -30,9 +30,9 @@ int main(int argc, char** argv) {
         return 1;
     }
 
-    addr.sin_family = AF_INET; //IPv4を指定
-    addr.sin_port = htons(PortNumber); //ポート番号。
-    addr.sin_addr.s_addr = inet_addr(IPaddress); //サーバー側のアドレス
+    addr.sin_family = AF_INET; //IPv4
+    addr.sin_port = htons(PortNumber); //port
+    addr.sin_addr.s_addr = inet_addr(IPaddress); //server adress
     ssize_t send_status;
 
 
